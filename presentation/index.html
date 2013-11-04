@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link href="css/reset.css" rel="stylesheet" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>    
+
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h1>New Methods to Grade Student Essay and Short-Answer Responses</h1>
+
+<h2>Vik Paruchuri</h2>
+
+<h2>Equirio</h2>
+</div>
+      <div class='step'  data-x="0" data-y="0" data-scale="2">
+    
+<h2>Before we start</h2>
+
+<ul>
+<li>Follow along at vikparuchuri.github.io/educause</li>
+</ul>
+
+<h3>Who am I?</h3>
+
+<ul>
+<li>Founder at Equirio</li>
+<li><a href="mailto:vik@equirio.com">vik@equirio.com</a></li>
+<li><a href="linkedin.com/in/vikparuchuri">LinkedIn</a></li>
+</ul>
+
+<h3>What have I done?</h3>
+
+<ul>
+<li>Machine Learning</li>
+<li>edX</li>
+</ul>
+</div>
+      <div class='step'  data-x="1000" data-y="1000" data-scale="2">
+    
+<h2>Goals</h2>
+
+<ul>
+<li>Discuss new methods of assessing student essays and short answers.</li>
+<li>Identify how each method works.</li>
+<li>Discuss strengths and advantages of each.</li>
+</ul>
+</div>
+      <div class='step'  data-x="2000" data-y="0" data-scale="2">
+    
+<h2>What is edX?</h2>
+
+<ul>
+<li>edX (edx.org) is an educational non-profit created in May 2012.</li>
+<li>Two major components:
+
+<ul>
+<li>edX platform learning management system (LMS)</li>
+<li>edX studio content management system (CMS)</li>
+<li>Together, enable authoring and delivery of courses at extremely large scale.</li>
+</ul></li>
+<li>Have hosted 30+ courses in subject areas from physics to justice, with a larger number upcoming.</li>
+<li>Recenly passed the 1 million student mark.</li>
+<li>Platform and all software today <a href="github.com/edx">open source</a> and coded in Python.</li>
+</ul>
+</div>
+      <div class='step'  data-x="3000" data-y="2000" data-scale="1">
+    
+<h2>Assessments on the edX platform</h2>
+
+<ul>
+<li>When edX launched, assessments were restricted to &quot;closed-choice&quot; response.</li>
+<li><img src="images/multiple_choice_problem.png" alt="multiple choice"></li>
+<li><img src="images/string_response.png" alt="string response"></li>
+</ul>
+</div>
+      <div class='step'  data-x="4000" data-y="0" data-scale="2">
+    
+<h2>How do we support humanities courses?</h2>
+
+<h3>Challenges</h3>
+
+<ul>
+<li>Need support for free-text responses.
+
+<ul>
+<li>Richer assessments allow for varied instructional and learning styles.</li>
+</ul></li>
+<li>Short answer responses also useful for STEM courses.</li>
+</ul>
+
+<h3>Ideas</h3>
+
+<ul>
+<li>Automated essay scoring (AES)</li>
+<li>Peer assessment</li>
+<li>Self assessment</li>
+<li>A way to use them together</li>
+</ul>
+</div>
+      <div class='step'  data-x="5000" data-y="1000" data-scale="2">
+    
+<h2>Technique 1:  AES</h2>
+
+<ul>
+<li>Idea advanced by <a href="http://en.wikipedia.org/wiki/Ellis_Batten_Page">Ellis Page</a> starting in 1966.</li>
+<li>Gained a lot of steam in the 1990s and 2000s.</li>
+<li>Currently offered by <a href="http://www.ets.org/">Educational Testing Service</a>, <a href="http://www.pearson.com/">Pearson</a>, and <a href="http://www.ctb.com/ctb.com/control/main">CTB/McGraw-Hill</a>, among others.</li>
+<li>Often used as a &quot;second reader&quot; for high stakes tests.</li>
+</ul>
+</div>
+      <div class='step'  data-x="6000" data-y="2000" data-scale="2">
+    
+<h2>How does it work?</h2>
+
+<p><img src="images/aes-flow.png" alt="aes diagram"></p>
+</div>
+      <div class='step'  data-x="7000" data-y="0" data-scale="1">
+    
+<h2>What does the machine model look at?</h2>
+
+<h3>Machines can&#39;t directly understand text</h3>
+
+<ul>
+<li>Need to convert the text into numbers, which machines can work with.</li>
+</ul>
+
+<h3>Features</h3>
+
+<ul>
+<li>All objects can have features.</li>
+<li>Features can all be quantified.</li>
+<li>Example: your apartment, how many bedrooms it has, and how much rent you pay.</li>
+<li>By figuring out what patterns of features mean, we can make predictions.</li>
+</ul>
+</div>
+      <div class='step'  data-x="8000" data-y="1000" data-scale="1">
+    
+<h2>Example</h2>
+
+<p>Survey asks <em>why do you want to learn about machine learning?</em>, and <em>how interested are you on a 0-2 scale?</em>:</p>
+
+<div>
+<table border="1" class="dataframe table display">
+<thead>
+<tr><th>number</th><th>response</th><th>score</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>I like solving interesting problems.</td><td>2</td></tr>
+<tr><td>2</td><td>What is machine learning?</td><td>0</td></tr>
+<tr><td>3</td><td>I'm not sure.</td><td>0</td></tr>
+<tr><td>4</td><td>Machine learning predicts everything!</td><td>2</td></tr>
+</tbody>
+</table>
+
+  <script>
+    $('.table').dataTable({
+        "bPaginate": false,
+        "bLengthChange": false,
+        "bSort": false,
+        "bStateSave": true,
+        "sScrollY": 200,
+        "sScrollX": 500,
+        "bFilter": true,
+        "bInfo": false,
+        "aLengthMenu": [[50, 100, -1], [50, 100, "All"]],
+        "iDisplayLength": 4,
+    });
+    </script><br/>
+</div>
+
+<p>What if we get a survey where the response is <em>I really like solving problems.  Machine learning is very useful</em> , but it is missing a score?</p>
+</div>
+      <div class='step'  data-x="9000" data-y="0" data-scale="1">
+    
+<h2>Potential features</h2>
+
+<ul>
+<li>Presence/absence of the phrase <code class='inline prettyprint'>solving problems</code>. (0 if absent, 1 if present)</li>
+<li>Number of sentences.</li>
+<li>Presence/absence of <code class='inline prettyprint'>machine learning</code>.</li>
+<li>Average word length.</li>
+<li>Presence/absence of <code class='inline prettyprint'>machine</code>.</li>
+</ul>
+</div>
+      <div class='step'  data-x="10000" data-y="1000" data-scale="2">
+    
+<h2>Making predictions</h2>
+
+<ul>
+<li>Use a machine learning <a href="http://en.wikipedia.org/wiki/Supervised_learning">algorithm</a>, such as a random forest, or a linear regression.</li>
+<li>Give it features and human scores in order to train it.</li>
+<li>Training creates a model, which can predict the scores for new essays.</li>
+<li>To predict, take a new essay, turn it into a sequence of features, and then ask our model to score it for us.</li>
+</ul>
+</div>
+      <div class='step'  data-x="10000" data-y="1000" data-scale="2">
+    
+<h2>What is the model doing?</h2>
+
+<ul>
+<li>Trying to mimic an expert human scorer.</li>
+<li>Figuring out the criteria a teacher uses to score an essay.</li>
+<li>Applying that knowledge to scoring future essays.</li>
+<li>Model can be updated over time with new human scoring.</li>
+</ul>
+</div>
+      <div class='step'  data-x="11000" data-y="2000" data-scale="2">
+    
+<h2>Applying AES</h2>
+
+<p><img src="images/edx-flow.png" alt="edx flow"></p>
+</div>
+      <div class='step'  data-x="12000" data-y="0" data-scale="2">
+    
+<h2>Sample Rubric</h2>
+<pre><code class='prettyprint '>Topicality
+0 points - Student is off topic
+1 point - Student stays on topic
+
+Photosynthesis
+0 points - Incorrectly defines photosynthesis
+1 points - Partially correct definition
+2 points - Fully correct definition
+</code></pre>
+<ul>
+<li>Rubric can be customized by the instructor.</li>
+<li>Score on each rubric dimension shown to students.</li>
+</ul>
+</div>
+      <div class='step'  data-x="13000" data-y="1000" data-scale="2">
+    
+<h2>edX AES Flow</h2>
+
+<p><img src="images/edx-aes-flow.png" alt="edx aes flow"></p>
+</div>
+      <div class='step'  data-x="14000" data-y="0" data-scale="2">
+    
+<h2>Low &quot;confidence&quot; re-grading</h2>
+
+<ul>
+<li>edX allows teachers to regrade essays that AES has scored poorly.</li>
+<li>Machine models gives you a score and a confidence value from 0% - 100% associated with that score.</li>
+<li>Low confidence papers are shown to the teacher to re-score.</li>
+<li>Called <i><a href="http://en.wikipedia.org/wiki/Active_learning_(machine_learning)">active learning</a></i>.</li>
+</ul>
+</div>
+      <div class='step'  data-x="15000" data-y="1000" data-scale="1">
+    
+<h2>AES Overview</h2>
+
+<h3>Strengths</h3>
+
+<ul>
+<li>Can give very quick scores to students.</li>
+<li>Allows students to submit drafts and iterate on their work.</li>
+<li>Can save teacher effort.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+
+<ul>
+<li>Can&#39;t give thoughtful, directed, feedback.</li>
+<li>Potential to be &quot;gamed.&quot;</li>
+<li>Needs a lot of upfront grading to be done by the teacher.</li>
+</ul>
+</div>
+      <div class='step'  data-x="16000" data-y="2000" data-scale="1">
+    
+<h2>AES Best Practices</h2>
+
+<ul>
+<li>Use in conjunction with another type of grading (more on this later).</li>
+<li>Construct good rubrics.</li>
+<li>Ensure that grading is done consistently.</li>
+<li>Re-grade papers as needed.</li>
+</ul>
+</div>
+      <div class='step'  data-x="17000" data-y="0" data-scale="2">
+    
+<h2>Technique 2: Peer Assessment</h2>
+
+<ul>
+<li>Students submit papers.</li>
+<li>Teacher grades &quot;calibration&quot; essays.</li>
+<li>Students perform calibration.</li>
+<li>Each student receives grades, rubric scores, and written feedback from 3 others.</li>
+<li>Scores shown to student.</li>
+</ul>
+</div>
+      <div class='step'  data-x="18000" data-y="1000" data-scale="2">
+    
+<h2>Peer Assessment Overview</h2>
+
+<h3>Strengths</h3>
+
+<ul>
+<li>Students get a lot of direct feedback.</li>
+<li>Students learn from grading each other.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+
+<ul>
+<li>Teacher has to grade calibration papers.</li>
+<li>Can be imbalances in number of graders and number of papers.</li>
+<li>Inconsistent quality of grading.</li>
+</ul>
+</div>
+      <div class='step'  data-x="19000" data-y="2000" data-scale="2">
+    
+<h2>Peer Assessment Best Practices</h2>
+
+<ul>
+<li>Use calibration.</li>
+<li>Match students based on quality of feedback.</li>
+<li>Incentivize peer grading.</li>
+<li>Manage the process and communicate with students.</li>
+</ul>
+</div>
+      <div class='step'  data-x="20000" data-y="0" data-scale="1">
+    
+<h2>Technique 3: Self Assessment</h2>
+
+<ul>
+<li>Students submit papers.</li>
+<li>Students rate themselves on a rubric.</li>
+</ul>
+</div>
+      <div class='step'  data-x="21000" data-y="1000" data-scale="1">
+    
+<h2>Self Assessment Overview</h2>
+
+<h3>Strengths</h3>
+
+<ul>
+<li>No effort to setup on the part of course staff.</li>
+<li>Students get instant feedback.</li>
+<li>Unlimited retries.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+
+<ul>
+<li>Score may be unreliable.</li>
+<li>Students don&#39;t get feedback.</li>
+</ul>
+</div>
+      <div class='step'  data-x="22000" data-y="2000" data-scale="1">
+    
+<h2>Self Assessment Best Practices</h2>
+
+<ul>
+<li>Use in conjunction with another type of grading.</li>
+<li>Give students a way to share with each other.</li>
+</ul>
+</div>
+      <div class='step'  data-x="23000" data-y="0" data-scale="2">
+    
+<h2>Pulling it all together</h2>
+
+<h3>Chaining</h3>
+
+<ul>
+<li>Combine by allowing teachers to setup &quot;chains.&quot;</li>
+<li>Student gets one type of grading, and moves to next depending on score.</li>
+<li>Saves effort, maximizes feedback.</li>
+<li>Use same rubric for all grading types.</li>
+</ul>
+</div>
+      <div class='step'  data-x="24000" data-y="1000" data-scale="2">
+    
+<h2>Future Ideas</h2>
+
+<ul>
+<li>AES is used as a way to give students iterative feedback before submitting a final draft to a teacher for a full evaluation.</li>
+<li>AES systems experiment with giving teachers information, and allowing them to regrade and customize grading.</li>
+<li>Automatically route students to peer graders based on performance.</li>
+<li>Incentivize students to self assess accurately.</li>
+<li>Automated systems pre-score essays, and identify students who might need teacher intervention.</li>
+<li>Small group discussions are tried in combination with various grading techniques.</li>
+<li>Automated scoring of alternative types of media, like videos.</li>
+</ul>
+
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
