@@ -334,3 +334,18 @@ Photosynthesis
 * Automated systems pre-score essays, and identify students who might need teacher intervention.
 * Small group discussions are tried in combination with various grading techniques.
 * Automated scoring of alternative types of media, like videos.
+
+---
+= data-x="26000" data-y="2000" data-scale="1"
+
+## What am I working on now?
+
+![movide](images/movide_logo.png)
+
+A free and open source student-centric learning platform that enables teachers and students to collaborate. At www.movide.com .
+<br/><br/>
+
+![happsee](images/happsee_logo.png)
+
+An Android application to track, visualize, and discover what makes us happy. In alpha on the Google play store.
+
