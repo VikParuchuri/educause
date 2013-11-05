@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200.09"
+   height="800.35999"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3786"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3789"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="839.04344"
+     inkscape:cy="513.63801"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-252.00219)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985"
+       width="343.45187"
+       height="131.31982"
+       x="23.161718"
+       y="309.39029" />
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       x="45.385078"
+       y="382.12128"
+       id="text3755"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="45.385078"
+         y="382.12128"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">Student Writes Essay</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 386.81663,369.99946 c 143.44166,0 143.44166,0 143.44166,0"
+       id="path3780"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="313.67599"
+       x="567.44739"
+       height="131.31982"
+       width="343.45187"
+       id="rect4239"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4241"
+       y="387.83557"
+       x="623.95648"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       xml:space="preserve"><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="387.83557"
+         x="623.95648"
+         sodipodi:role="line"
+         id="tspan4245">Grading &quot;Pool&quot;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 835.71428,458.07645 C 957.85714,580.21931 957.85714,580.21931 957.85714,580.21931"
+       id="path4249"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="600.81885"
+       x="821.73309"
+       height="131.31982"
+       width="343.45187"
+       id="rect4446"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4448"
+       y="660.69269"
+       x="883.95648"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       xml:space="preserve"><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="660.69269"
+         x="883.95648"
+         id="tspan4450"
+         sodipodi:role="line">Teacher grades </tspan><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="698.19275"
+         x="883.95648"
+         sodipodi:role="line"
+         id="tspan4452">calibrations</tspan></text>
+    <rect
+       y="832.24744"
+       x="821.73315"
+       height="131.31982"
+       width="343.45187"
+       id="rect5378"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5380"
+       y="890.69275"
+       x="876.81366"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       xml:space="preserve"><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="890.69275"
+         x="876.81366"
+         id="tspan5382"
+         sodipodi:role="line">Other Students</tspan><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="928.19275"
+         x="876.81366"
+         sodipodi:role="line"
+         id="tspan5384">Calibrate</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 992.85714,742.36218 c 0,60 0,60 0,60"
+       id="path5940"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 645.71429,472.36218 C 588.57143,773.79075 588.57143,773.79075 588.57143,773.79075"
+       id="path6126"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0;marker-end:url(#Arrow1Lstart)"
+       d="m 797.14286,902.36218 c -121.42857,0 -121.42857,1.42858 -121.42857,1.42858 l 1.42857,0"
+       id="path6498"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="830.81885"
+       x="314.5903"
+       height="131.31982"
+       width="343.45187"
+       id="rect6881"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6883"
+       y="903.54987"
+       x="336.81366"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       xml:space="preserve"><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="903.54987"
+         x="336.81366"
+         id="tspan6885"
+         sodipodi:role="line">Other Students Grade</tspan></text>
+    <rect
+       y="492.24744"
+       x="24.59029"
+       height="131.31982"
+       width="343.45187"
+       id="rect6887"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6889"
+       y="564.97839"
+       x="31.09936"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Simpsonfont;-inkscape-font-specification:Simpsonfont Bold"
+       xml:space="preserve"><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         y="564.97839"
+         x="31.09936"
+         id="tspan6891"
+         sodipodi:role="line">Student gets Feedback</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.36839628px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 359.8158,810.74941 C 184.46992,655.40353 184.46992,655.40353 184.46992,655.40353"
+       id="path7265"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

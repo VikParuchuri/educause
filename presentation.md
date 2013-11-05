@@ -244,7 +244,14 @@ Photosynthesis
 * Scores shown to student.
 
 ---
-= data-x="18000" data-y="1000" data-scale="2"
+= data-x="18000" data-y="0" data-scale="1"
+
+## Peer Assessment Diagram
+
+![peer assessment](images/peer_grading.png)
+
+---
+= data-x="19000" data-y="1000" data-scale="2"
 
 ## Peer Assessment Overview
 
@@ -258,7 +265,7 @@ Photosynthesis
 * Inconsistent quality of grading.
 
 ---
-= data-x="19000" data-y="2000" data-scale="2"
+= data-x="20000" data-y="2000" data-scale="2"
 
 ## Peer Assessment Best Practices
 
@@ -268,7 +275,7 @@ Photosynthesis
 * Manage the process and communicate with students.
 
 ---
-= data-x="20000" data-y="0" data-scale="1"
+= data-x="21000" data-y="0" data-scale="1"
 
 ## Technique 3: Self Assessment
 
@@ -276,7 +283,7 @@ Photosynthesis
 * Students rate themselves on a rubric.
 
 ---
-= data-x="21000" data-y="1000" data-scale="1"
+= data-x="22000" data-y="1000" data-scale="1"
 
 ## Self Assessment Overview
 
@@ -290,7 +297,7 @@ Photosynthesis
 * Students don't get feedback.
 
 ---
-= data-x="22000" data-y="2000" data-scale="1"
+= data-x="23000" data-y="2000" data-scale="1"
 
 ## Self Assessment Best Practices
 
@@ -298,7 +305,7 @@ Photosynthesis
 * Give students a way to share with each other.
 
 ---
-= data-x="23000" data-y="0" data-scale="2"
+= data-x="24000" data-y="0" data-scale="2"
 
 ## Pulling it all together
 
@@ -309,7 +316,14 @@ Photosynthesis
 * Use same rubric for all grading types.
 
 ---
-= data-x="24000" data-y="1000" data-scale="2"
+= data-x="25000" data-y="0" data-scale="2"
+
+## Chaining Diagram
+
+![chaining](images/chain_flow.png)
+
+---
+= data-x="25000" data-y="1000" data-scale="2"
 
 ## Future Ideas
 
